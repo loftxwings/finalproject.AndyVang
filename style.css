@@ -1,0 +1,105 @@
+
+
+html{
+ font-family: 'Roboto', serif;	
+	}
+
+h1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 40px;
+	color: #82E0AA;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	background-image: url(images/img3.jpg);
+	
+	
+	
+}
+p{
+	font-size: 16px;
+	color:#F7F9F9;
+}
+header{
+	background-color:#ABB2B9;	
+	
+}
+header img{
+		padding-top:0px;
+	
+}
+li{
+	color:#F7F9F9;
+	
+}
+b{
+	color:#82E0AA;
+}	
+	
+
+.img1 {
+	padding-top: 2em;
+	padding-right: 10px;
+}
+
+nav{
+		font-weight:bold;
+		background-color:#C39BD3;
+		padding-top:5px;
+		padding-bottom:.5px;
+		padding-right:5px;
+		padding-left:5px;
+		margin-bottom:15.5px;
+}
+nav ul{
+	list-style-type: none;
+	font-size: 23px;
+}
+
+nav li{
+	display: inline;
+}
+
+nav a:link{
+		color: purple;
+}
+
+nav a:visited{
+	color: pink;
+}
+
+nav a:hover{
+	color: gray;
+}
+
+nav a:active{
+	color: black;
+}
+
+footer{
+	
+	background-color: #C39BD3;
+	text-align:left;
+	
+	display:block;
+	margin-top: 15.5px;
+}
+
+/* CSS for Tablets */
+
+@media only screen and (max-width: 1024px){
+	
+	h1{
+		font-size: 2em;
+	}
+}
+	
+/* CSS for Smartphones */
+
+@media only screen and (max-width: 768px){
+		h1{
+			font-size: 1.5em;
+		}
+}	
+}	
